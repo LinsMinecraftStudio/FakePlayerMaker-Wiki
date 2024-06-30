@@ -1,5 +1,5 @@
 site_name: FakePlayerMaker-Wiki
-site_url: https://lms.hiworldmc.com/FakePlayerMaker-Wiki/
+site_url: https://wiki.hiworldmc.com/FakePlayerMaker/
 plugins:
   - search
 theme:
@@ -11,9 +11,9 @@ theme:
 extra:
   alternate:
     - name: English
-      link: /en/ 
+      link: /FakePlayerMaker/en/ 
       lang: en
     - name: 简体中文
-      link: /zh/
+      link: /FakePlayerMaker/en/ 
       lang: zh
 repo_url: https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki   
