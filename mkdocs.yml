@@ -14,6 +14,7 @@ extra:
       link: /FakePlayerMaker-Wiki/
       lang: en
     - name: 简体中文
-      link: /FakePlayerMaker-Wiki/zh/
+      link: /FakePlayerMaker-Wiki/zh/index.md
       lang: zh
 repo_url: https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki   
+repo_name: LinsMinecraftStudio/FakePlayerMaker-Wiki
