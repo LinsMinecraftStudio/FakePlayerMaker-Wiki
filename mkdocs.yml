@@ -1,9 +1,10 @@
 site_name: FakePlayerMaker-Wiki
-site_url: https://wiki.hiworldmc.com/FakePlayerMaker/
+site_url: https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki
 plugins:
   - search
   - i18n:
       docs_structure: folder
+      fallback_to_default: true
       languages:
         - locale: en
           default: true
