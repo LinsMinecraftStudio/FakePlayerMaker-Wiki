@@ -8,13 +8,20 @@ theme:
     - navigation.instant
     - search.suggest
     - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+  icon:
+    repo: "fontawesome/brands/github"
 extra:
   alternate:
     - name: English
-      link: /FakePlayerMaker-Wiki/
+      link: /en/
       lang: en
     - name: 简体中文
-      link: /FakePlayerMaker-Wiki/zh/index.md
+      link: /zh/index.md
       lang: zh
 repo_url: https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki   
 repo_name: LinsMinecraftStudio/FakePlayerMaker-Wiki
+nav:
+  - Discord: "https://discord.gg/W36MJhBtGy"
