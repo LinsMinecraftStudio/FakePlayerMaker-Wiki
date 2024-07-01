@@ -13,7 +13,7 @@ plugins:
           name: 简体中文
           build: true
           nav_translations:
-            - Home: 首页
+            Home: 首页
 theme:
   name: material
   features:
