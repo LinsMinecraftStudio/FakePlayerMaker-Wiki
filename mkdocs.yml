@@ -2,6 +2,18 @@ site_name: FakePlayerMaker-Wiki
 site_url: https://wiki.hiworldmc.com/FakePlayerMaker/
 plugins:
   - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          nav_translations:
+            - Home: 首页
 theme:
   name: material
   features:
@@ -13,15 +25,8 @@ theme:
     - navigation.top
   icon:
     repo: "fontawesome/brands/github"
-extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: 简体中文
-      link: /zh/index.md
-      lang: zh
 repo_url: https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki   
 repo_name: LinsMinecraftStudio/FakePlayerMaker-Wiki
 nav:
+  - Home: index.md
   - Discord: "https://discord.gg/W36MJhBtGy"
