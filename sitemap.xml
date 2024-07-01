@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/</loc>
+        <lastmod>2024-07-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/"/>
+    </url>
+    <url>
+        <loc>https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/Commands%20%26%20Permissions/</loc>
+        <lastmod>2024-07-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/Commands%20%26%20Permissions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/Commands%20%26%20Permissions/"/>
+    </url>
+    <url>
+        <loc>https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/</loc>
+        <lastmod>2024-07-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/"/>
+    </url>
+    <url>
+        <loc>https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/Commands%20%26%20Permissions/</loc>
+        <lastmod>2024-07-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/Commands%20%26%20Permissions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/Commands%20%26%20Permissions/"/>
+    </url>
+    <url>
+        <loc>https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/%E6%8C%87%E4%BB%A4%E4%B8%8E%E6%9D%83%E9%99%90/</loc>
+        <lastmod>2024-07-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://github.com/LinsMinecraftStudio/FakePlayerMaker-Wiki/zh/%E6%8C%87%E4%BB%A4%E4%B8%8E%E6%9D%83%E9%99%90/"/>
+    </url>
+</urlset>
