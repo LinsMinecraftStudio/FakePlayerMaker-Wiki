@@ -21,7 +21,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName, // Usually your GitHub org/user name.
+  organizationName, // Usually your GitHub org/username.
   projectName, // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-cn"],
   },
 
   presets: [
@@ -43,15 +43,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
       }),
     ],
   ],
@@ -60,19 +51,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "FakePlayerMaker Wiki",
         logo: {
-          alt: "My Site Logo",
+          alt: "The Logo",
           src: "img/logo.svg",
         },
         items: [
           {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
+          {
             type: "doc",
+            label: "Documentation",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
@@ -84,46 +82,21 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/W36MJhBtGy",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                docId: "github-repo",
+                label: "GitHub Project Repository",
+                href: "https://github.com/LinsMinecraftStudio/FakePlayerMakerRecoded",
               },
             ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: `https://github.com/${organizationName}/${projectName}`,
-              },
-            ],
-          },
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FakePlayerMaker Wiki, LinsMinecraftStudio. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
